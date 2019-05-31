@@ -66,6 +66,38 @@ p {
     line-height: 1.4;
 }
 
+header {
+    /* ADDED */
+    margin: 0 auto;
+    align-self: center;
+    width: 800px;
+}
+
+header nav {
+    /* ADDED */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0 0 0;
+}
+
+header nav a {
+    /* ADDED */
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 14px;
+    color: black;
+    width: 80px;
+    margin: 28px;
+    padding: 5px;
+}
+
+.logo-image {
+    /* ADDED */
+    padding-bottom: 40px;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -77,6 +109,10 @@ p {
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+}
+
+#top-content-image {
+    padding-bottom: 23px;
 }
 
 .top-content .text-container {
@@ -110,6 +146,46 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.middle-content .boxes .box:first-child {
+    background: teal;
+}
+
+.middle-content .boxes .box:nth-child(2) {
+    background: gold;
+}
+
+.middle-content .boxes .box:nth-child(3) {
+    background: cadetblue;
+}
+
+.middle-content .boxes .box:nth-child(4) {
+    background: coral;
+}
+
+.middle-content .boxes .box:nth-child(5) {
+    background: crimson;
+}
+
+.middle-content .boxes .box:nth-child(6) {
+    background: forestgreen;
+}
+
+.middle-content .boxes .box:nth-child(7) {
+    background: darkorchid;
+}
+
+.middle-content .boxes .box:nth-child(8) {
+    background: hotpink;
+}
+
+.middle-content .boxes .box:nth-child(9) {
+    background: indigo;
+}
+
+.middle-content .boxes .box:last-child {
+    background: dodgerblue;
 }
 
 .bottom-content {
