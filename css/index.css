@@ -66,6 +66,38 @@ p {
     line-height: 1.4;
 }
 
+header {
+    /* ADDED */
+    margin: 0 auto;
+    align-self: center;
+    width: 800px;
+}
+
+header nav {
+    /* ADDED */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0 0 0;
+}
+
+header nav a {
+    /* ADDED */
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 14px;
+    color: black;
+    width: 80px;
+    margin: 28px;
+    padding: 5px;
+}
+
+.logo-image {
+    /* ADDED */
+    padding-bottom: 40px;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -79,20 +111,38 @@ p {
     border-bottom: 1px dashed black;
 }
 
+#top-content-image {
+    padding-bottom: 23px;
+}
+
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
 }
 
-.middle-content {
-    margin-bottom: 20px;
+.about-page .top-content .text-container {
+    /* ADDED */
+    width: 780px;
+}
+
+.about-page .middle-content {
+    /* ADDED */
+    width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.about-page .middle-content .about-middle {
+    /* ADDED */
+    margin: 10px;
+    width: 380px;
     border-bottom: 1px dashed black;
 }
 
-.middle-content h2 {
-    padding: 0 2%;
-    margin-bottom: 0;
+.middle-content {
+    margin-bottom: 20px;
 }
 
 .middle-content .boxes {
@@ -110,6 +160,46 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.middle-content .boxes .box:first-child {
+    background: teal;
+}
+
+.middle-content .boxes .box:nth-child(2) {
+    background: gold;
+}
+
+.middle-content .boxes .box:nth-child(3) {
+    background: cadetblue;
+}
+
+.middle-content .boxes .box:nth-child(4) {
+    background: coral;
+}
+
+.middle-content .boxes .box:nth-child(5) {
+    background: crimson;
+}
+
+.middle-content .boxes .box:nth-child(6) {
+    background: forestgreen;
+}
+
+.middle-content .boxes .box:nth-child(7) {
+    background: darkorchid;
+}
+
+.middle-content .boxes .box:nth-child(8) {
+    background: hotpink;
+}
+
+.middle-content .boxes .box:nth-child(9) {
+    background: indigo;
+}
+
+.middle-content .boxes .box:last-child {
+    background: dodgerblue;
 }
 
 .bottom-content {
@@ -143,4 +233,12 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+button {
+    border: 2px solid black;
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-size: 16px;
+    margin: 10px 0;
 }
