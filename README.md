@@ -34,15 +34,27 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+Answer: Semantic HTML is used to give our elements meaning. This meaning is important for other developers and those with accessibility needs. This also helps with SEO and lessens loading times if done neatly.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+Answer 1: One difference between ```display: block;``` and ```display: inline;``` is how the elementsposition themselves on a page. With ```display: block;```, the next element will always begin on a new line. With ```display: inline;```, the next element will position itself next to the previous if the spacing allows. 
+
+Answer 2: Another difference between ```display: block;``` and ```display: inline;``` is that when using ```display: inline;```, height and width properties have no effect. When using ```display: block;```, height and width properties can be changed within the scope the parent will allow. 
 
 3. What are the 4 areas of the box model?
 
+Answer: The 4 areas of the box model are content, padding, border, and margin. 
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
+
+Answer: The vertical, or "y" axis.
 
 5. Explain why git is valuable to a team of developers.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
+
+Answer: Git is a version control software that saves each previous version of a file as it is updated. It is valuable for a team of developers because each person can be working on different individual aspects of a project without interfering with the collective final project.
 
 ## Project Set Up
 
